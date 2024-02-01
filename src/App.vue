@@ -1,3 +1,7 @@
+<script scoped>
+import { RouterLink } from 'vue-router';
+</script>
+
 <template>
   <nav class="navbar navbar-expand-lg nabar-dark shadow stickey-top" style="background: #7A0FB6;">
     <div class="container">
@@ -12,7 +16,7 @@
             <router-link :to="{ name: 'home' }" class="nav-link active" aria-current="page" href="#">หน้าแรก</router-link >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <router-link :to="{name:'about'}" class="nav-link" href="#">เกี่ยวกับเรา</router-link>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,10 +39,6 @@
     </div>
   </nav>
 </template>
-
-<script>
-
-</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
