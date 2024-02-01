@@ -20,19 +20,19 @@ import { RouterLink } from 'vue-router';
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              เว็บที่เกี่ยวข้อง
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="https://www.trattc.ac.th" target="_blank">วท.ตราด</a></li>
+              <li><a class="dropdown-item" href="https://www.vec.go.th" target="_blank">อาชีวศึกษา</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="https://www.moe.go.th" target="_blank">กระทรวงศึกษาธิการ</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <router-link to="" class="nav-link" aria-disabled="true" href="#">แผนที่</router-link>
           </li>
         </ul>
       </div>
